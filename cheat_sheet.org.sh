@@ -244,10 +244,10 @@ nmap 127.0.0.1
 netcat -l [recieving port] > file_copied
 
 # Pipe the output of a command to a target ip and port over the network:
-[command] | netcat -w [# seconds before timeout] [target ip] [target port]
+[command] | netcat -w [number of seconds before timeout] [target ip] [target port]
 
 # Use tar to compress and output a file as a stream, pipe it to a target ip and port over the network:
-sudo tar -czf - Journal.odt | netcat -w [# seconds before timeout] [target ip] [target port]
+sudo tar -czf - [filename] | netcat -w [number of seconds before timeout] [target ip] [target port]
 
 **** Users and Groups:
 # Change owner of a file or directory:
@@ -298,7 +298,7 @@ lsof
 diff [file 1] [file 2]
 
 # Output the top -n lines of [file]:
-head -n [# of lines] [file]
+head -n [number of lines] [file]
 
 # Like head, but it outputs the last -n lines:
 tail
@@ -316,7 +316,7 @@ sha1sum
 sha1deep
 
 # Call [command] every -n seconds, and display output:
-watch -n [#seconds] [command]
+watch -n [number of seconds] [command]
 
 # Execute [command], print how long it took:
 time [command]
@@ -465,7 +465,7 @@ use [database name here];
 # Show database schema:
 show tables;
 
-# Stop using current database:
+# Delete database:
 DROP DATABASE [databasename];
 
 # New database:
