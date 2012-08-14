@@ -1,0 +1,13 @@
+Still need to cover the following topics:
+
+.bashrc
+/etc/apt/sources.list
+/etc/fstab
+init scripts
+cron
+anacron
+more detail about filesystems
+/etc
+daemons
+wget
+curl
