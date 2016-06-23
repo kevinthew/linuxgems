@@ -34,6 +34,12 @@ ls -a
 # Recurse into subdirectories and list those as well:
 ls -r
 
+# List most recently modified files/ directories
+ls -lart
+
+# Display directory structure as a tree
+tree
+
 # Move/rename a file or directory (be careful that you don't move the source over a destination with the same name):
 mv [source] [destination]
 
