@@ -43,7 +43,7 @@ rm [target]
 # Copy file or directory:
 cp [source] [destination]
 
-# Mount filesytem:
+# Mount filesystem:
 mount /dev/[device name] /media/[device name]
 
 # Unmount:
